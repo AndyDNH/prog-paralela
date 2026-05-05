@@ -1,0 +1,3 @@
+C:/Tools/CLASES 2026_2026/prog paralela/ejemplo02/build/CMakeFiles/ejemplo02.dir
+C:/Tools/CLASES 2026_2026/prog paralela/ejemplo02/build/CMakeFiles/edit_cache.dir
+C:/Tools/CLASES 2026_2026/prog paralela/ejemplo02/build/CMakeFiles/rebuild_cache.dir

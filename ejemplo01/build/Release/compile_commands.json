@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Tools/CLASES 2026_2026/prog paralela/ejemplo01/build/Release",
+  "command": "c:\\Tools\\mingw64\\bin\\g++.exe -O3 -DNDEBUG -o CMakeFiles\\ejemplo01.dir\\main.cpp.obj -c \"C:\\Tools\\CLASES 2026_2026\\prog paralela\\ejemplo01\\main.cpp\"",
+  "file": "C:/Tools/CLASES 2026_2026/prog paralela/ejemplo01/main.cpp",
+  "output": "C:/Tools/CLASES 2026_2026/prog paralela/ejemplo01/build/Release/CMakeFiles/ejemplo01.dir/main.cpp.obj"
+}
+]

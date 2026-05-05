@@ -1,0 +1,14 @@
+# ninja log v7
+30	181	7996882254152494	CMakeFiles/fractal-dll.dir/Debug/palette.cpp.obj	5cae5ae53786e0e5
+4	664	7996886608368996	CMakeFiles/fractal-dll.dir/Debug/fractal_simd.cpp.obj	12a5dcb62497a833
+665	735	7996886614981476	Debug/libfractal-dll.a	e39f5a52c5694b76
+28	206	7996888416995989	CMakeFiles/fractal-dll.dir/Release/palette.cpp.obj	d45742f3534d54e7
+31	773	7996888417025987	CMakeFiles/fractal-dll.dir/Release/fractal_simd.cpp.obj	1ea9b80ae447c2ee
+773	851	7996888424447520	Release/libfractal-dll.a	c3ff9e7b09de11f3
+53	192	7996889169115260	CMakeFiles/fractal-dll.dir/Release/palette.cpp.obj	da6eaf9bcb49ee9e
+56	789	7996889169143440	CMakeFiles/fractal-dll.dir/Release/fractal_simd.cpp.obj	a55d0e229f5fb93b
+790	1645	7996889177741145	Release/libfractal-dll.dll	99c1259401eced63
+790	1645	7996889177741145	Release/libfractal-dll.dll.a	99c1259401eced63
+23	748	7996910154090764	CMakeFiles/fractal-dll.dir/Release/fractal_simd.cpp.obj	a55d0e229f5fb93b
+748	1409	7996910162131768	Release/libfractal-dll.dll	99c1259401eced63
+748	1409	7996910162131768	Release/libfractal-dll.dll.a	99c1259401eced63

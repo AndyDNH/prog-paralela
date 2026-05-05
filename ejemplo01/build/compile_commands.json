@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/Tools/CLASES 2026_2026/prog paralela/ejemplo01/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DCMAKE_INTDIR=\\\"Debug\\\" -g -o CMakeFiles\\ejemplo01.dir\\Debug\\main.cpp.obj -c \"C:\\Tools\\CLASES 2026_2026\\prog paralela\\ejemplo01\\main.cpp\"",
+  "file": "C:/Tools/CLASES 2026_2026/prog paralela/ejemplo01/main.cpp",
+  "output": "C:/Tools/CLASES 2026_2026/prog paralela/ejemplo01/build/CMakeFiles/ejemplo01.dir/Debug/main.cpp.obj"
+},
+{
+  "directory": "C:/Tools/CLASES 2026_2026/prog paralela/ejemplo01/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DCMAKE_INTDIR=\\\"Release\\\" -O3 -DNDEBUG -o CMakeFiles\\ejemplo01.dir\\Release\\main.cpp.obj -c \"C:\\Tools\\CLASES 2026_2026\\prog paralela\\ejemplo01\\main.cpp\"",
+  "file": "C:/Tools/CLASES 2026_2026/prog paralela/ejemplo01/main.cpp",
+  "output": "C:/Tools/CLASES 2026_2026/prog paralela/ejemplo01/build/CMakeFiles/ejemplo01.dir/Release/main.cpp.obj"
+},
+{
+  "directory": "C:/Tools/CLASES 2026_2026/prog paralela/ejemplo01/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -O2 -g -DNDEBUG -o CMakeFiles\\ejemplo01.dir\\RelWithDebInfo\\main.cpp.obj -c \"C:\\Tools\\CLASES 2026_2026\\prog paralela\\ejemplo01\\main.cpp\"",
+  "file": "C:/Tools/CLASES 2026_2026/prog paralela/ejemplo01/main.cpp",
+  "output": "C:/Tools/CLASES 2026_2026/prog paralela/ejemplo01/build/CMakeFiles/ejemplo01.dir/RelWithDebInfo/main.cpp.obj"
+}
+]
