@@ -39,6 +39,7 @@ public class FractalMain {
 
     init();
     loop();
+    fractalCpu.shutdown();
 
     // Free the window callbacks and destroy the window
     glfwFreeCallbacks(window);
@@ -83,6 +84,11 @@ public class FractalMain {
         System.out.println("Modo C/C++ Simd");
         modo =2;
       }
+      // NUEVO BOTÓN
+      if (key == GLFW_KEY_3 && action == GLFW_RELEASE ){
+        System.out.println("Modo CPU (Multithreading)");
+        modo = 3;
+      }
     });
 
     GLFWVidMode vidmode = glfwGetVideoMode(glfwGetPrimaryMonitor());
@@ -92,7 +98,8 @@ public class FractalMain {
 
 
     glfwMakeContextCurrent(window);
-    glfwSwapInterval(1);
+//    Sincroniza a los hz de la pantalla
+//    glfwSwapInterval(1);
     glfwShowWindow(window);
 
     GL.createCapabilities();
@@ -141,7 +148,7 @@ public class FractalMain {
     while ( !glfwWindowShouldClose(window) ) {
       glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
       paint();
-      System.out.println(fpsCounter.update());
+      System.out.println( "Modo: " + modo + "-----" +  fpsCounter.update() + " - Iteraciones:  " + maxIteraciones );
 
       glfwSwapBuffers(window);
       glfwPollEvents();
@@ -158,6 +165,10 @@ public class FractalMain {
     if ( modo == 2 ){
       simd.juliaSimd();
       pixelBuffer.put(simd.pixelBuffer.asIntBuffer());
+    }
+    if ( modo == 3 ){
+      fractalCpu.julia_threads_2(xMin,yMin,xMax,yMax,WIDTH,HEIGHT);
+      pixelBuffer.put(fractalCpu.pixelBuffer);
     }
 
     pixelBuffer.flip();
