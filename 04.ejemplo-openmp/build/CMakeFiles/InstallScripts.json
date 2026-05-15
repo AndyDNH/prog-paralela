@@ -1,0 +1,11 @@
+{
+	"Configs" : 
+	[
+		"Debug"
+	],
+	"InstallScripts" : 
+	[
+		"C:/Tools/CLASES 2026_2026/prog-paralela/04.ejemplo-openmp/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

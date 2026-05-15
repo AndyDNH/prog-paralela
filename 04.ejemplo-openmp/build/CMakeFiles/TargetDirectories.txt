@@ -1,0 +1,3 @@
+C:/Tools/CLASES 2026_2026/prog-paralela/04.ejemplo-openmp/build/CMakeFiles/ejemplo-openmp.dir
+C:/Tools/CLASES 2026_2026/prog-paralela/04.ejemplo-openmp/build/CMakeFiles/edit_cache.dir
+C:/Tools/CLASES 2026_2026/prog-paralela/04.ejemplo-openmp/build/CMakeFiles/rebuild_cache.dir

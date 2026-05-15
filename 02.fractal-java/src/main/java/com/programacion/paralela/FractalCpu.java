@@ -87,9 +87,9 @@ public class FractalCpu {
 
     List<Callable<Void>> tasks = new ArrayList<>();
 
-    for (int c = 0; c < cores; c++) {
-      final int startY = c * chunkSize;
-      final int endY = (c == cores - 1) ? height : (c + 1) * chunkSize;
+    for (int ceil = 0; ceil < cores; ceil++) {
+      final int startY = ceil * chunkSize;
+      final int endY = (ceil == cores - 1) ? height : (ceil + 1) * chunkSize;
 
       tasks.add(() -> {
         for (int j = startY; j < endY; j++) {
