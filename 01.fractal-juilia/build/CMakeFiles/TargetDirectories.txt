@@ -1,3 +1,3 @@
-C:/Tools/CLASES 2026_2026/prog paralela/01.fractal-juilia/build/CMakeFiles/fractal-julia.dir
-C:/Tools/CLASES 2026_2026/prog paralela/01.fractal-juilia/build/CMakeFiles/edit_cache.dir
-C:/Tools/CLASES 2026_2026/prog paralela/01.fractal-juilia/build/CMakeFiles/rebuild_cache.dir
+C:/Tools/CLASES 2026_2026/prog-paralela/01.fractal-juilia/build/CMakeFiles/fractal-julia.dir
+C:/Tools/CLASES 2026_2026/prog-paralela/01.fractal-juilia/build/CMakeFiles/edit_cache.dir
+C:/Tools/CLASES 2026_2026/prog-paralela/01.fractal-juilia/build/CMakeFiles/rebuild_cache.dir

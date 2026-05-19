@@ -12,7 +12,7 @@ build fractal-julia.exe: phony Debug/fractal-julia.exe
 
 
 #############################################
-# Folder: C:/Tools/CLASES 2026_2026/prog paralela/01.fractal-juilia/build
+# Folder: C:/Tools/CLASES 2026_2026/prog-paralela/01.fractal-juilia/build
 
 build all: phony all$:Debug
 

@@ -93,7 +93,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "fractal-julia::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-fractal-julia-Debug-9a3efd5a18da8b2f48a7.json",
+					"jsonFile" : "target-fractal-julia-Debug-cec158caac3180385f04.json",
 					"name" : "fractal-julia",
 					"projectIndex" : 0
 				}
@@ -191,7 +191,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "fractal-julia::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-fractal-julia-Release-a65f10f52d71161ed788.json",
+					"jsonFile" : "target-fractal-julia-Release-47748fcf06456c342b0d.json",
 					"name" : "fractal-julia",
 					"projectIndex" : 0
 				}
@@ -289,7 +289,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "fractal-julia::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-fractal-julia-RelWithDebInfo-ae6ba27c4b75361b5abe.json",
+					"jsonFile" : "target-fractal-julia-RelWithDebInfo-c503f305471ae46d2fa6.json",
 					"name" : "fractal-julia",
 					"projectIndex" : 0
 				}
@@ -299,8 +299,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Tools/CLASES 2026_2026/prog paralela/01.fractal-juilia/build",
-		"source" : "C:/Tools/CLASES 2026_2026/prog paralela/01.fractal-juilia"
+		"build" : "C:/Tools/CLASES 2026_2026/prog-paralela/01.fractal-juilia/build",
+		"source" : "C:/Tools/CLASES 2026_2026/prog-paralela/01.fractal-juilia"
 	},
 	"version" : 
 	{

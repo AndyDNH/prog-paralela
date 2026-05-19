@@ -43,7 +43,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Tools/CLASES 2026_2026/prog-paralela/04.ejemplo-openmp/build"
+			"value" : "c:/Tools/CLASES 2026_2026/prog-paralela/01.fractal-juilia/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -139,7 +139,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
 			"type" : "STRING",
@@ -283,7 +283,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
 			"type" : "STRING",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Tools/CLASES 2026_2026/prog-paralela/04.ejemplo-openmp/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/Tools/CLASES 2026_2026/prog-paralela/01.fractal-juilia/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Tools/CLASES 2026_2026/prog-paralela/04.ejemplo-openmp"
+			"value" : "C:/Tools/CLASES 2026_2026/prog-paralela/01.fractal-juilia"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/EjemploOpenMp"
+			"value" : "C:/Program Files (x86)/fractalJulia"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -899,7 +899,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "EjemploOpenMp"
+			"value" : "fractalJulia"
 		},
 		{
 			"name" : "CMAKE_PROJECT_SPDX_LICENSE",
@@ -1299,10 +1299,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "The CMake toolchain file"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "c:/tools/vcpkg-2026.03.18/scripts/buildsystems/vcpkg.cmake"
 		},
 		{
@@ -1322,40 +1322,28 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "EjemploOpenMp_BINARY_DIR",
+			"name" : "SFML_DIR",
 			"properties" : 
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
+					"value" : "The directory containing a CMake configuration file for SFML."
 				}
 			],
-			"type" : "STATIC",
-			"value" : "C:/Tools/CLASES 2026_2026/prog-paralela/04.ejemplo-openmp/build"
+			"type" : "PATH",
+			"value" : "C:/Tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/share/sfml"
 		},
 		{
-			"name" : "EjemploOpenMp_IS_TOP_LEVEL",
+			"name" : "SFML_DOC_DIR",
 			"properties" : 
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
+					"value" : "Path to a file."
 				}
 			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "EjemploOpenMp_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Tools/CLASES 2026_2026/prog-paralela/04.ejemplo-openmp"
+			"type" : "PATH",
+			"value" : "SFML_DOC_DIR-NOTFOUND"
 		},
 		{
 			"name" : "VCPKG_APPLOCAL_DEPS",
@@ -1588,6 +1576,42 @@
 			],
 			"type" : "PATH",
 			"value" : "C:/Tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/share/fmt"
+		},
+		{
+			"name" : "fractalJulia_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Tools/CLASES 2026_2026/prog-paralela/01.fractal-juilia/build"
+		},
+		{
+			"name" : "fractalJulia_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "fractalJulia_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Tools/CLASES 2026_2026/prog-paralela/01.fractal-juilia"
 		}
 	],
 	"kind" : "cache",

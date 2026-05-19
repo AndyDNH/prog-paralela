@@ -233,57 +233,13 @@
 		{
 			"isExternal" : true,
 			"path" : "C:/Tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/share/fmt/fmt-targets-release.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/share/sfml/SFMLConfigVersion.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/share/sfml/SFMLConfig.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/share/sfml/SFMLSystemSharedTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/share/sfml/SFMLSystemSharedTargets-debug.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/share/sfml/SFMLSystemSharedTargets-release.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/share/sfml/SFMLWindowSharedTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/share/sfml/SFMLWindowSharedTargets-debug.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/share/sfml/SFMLWindowSharedTargets-release.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/share/sfml/SFMLGraphicsSharedTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/share/sfml/SFMLGraphicsSharedTargets-debug.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/share/sfml/SFMLGraphicsSharedTargets-release.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Tools/CLASES 2026_2026/prog paralela/01.fractal-juilia/build",
-		"source" : "C:/Tools/CLASES 2026_2026/prog paralela/01.fractal-juilia"
+		"build" : "C:/Tools/CLASES 2026_2026/prog-paralela/04.ejemplo-openmp/build",
+		"source" : "C:/Tools/CLASES 2026_2026/prog-paralela/04.ejemplo-openmp"
 	},
 	"version" : 
 	{
