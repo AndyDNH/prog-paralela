@@ -1,0 +1,3 @@
+C:/Tools/CLASES 2026_2026/prog-paralela/2026_trabajoenclase/build/CMakeFiles/trabajo-clase.dir
+C:/Tools/CLASES 2026_2026/prog-paralela/2026_trabajoenclase/build/CMakeFiles/edit_cache.dir
+C:/Tools/CLASES 2026_2026/prog-paralela/2026_trabajoenclase/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,26 @@
+# ninja log v7
+52	404	8008978345905823	CMakeFiles/fractal-julia.dir/Debug/fractal_serial.cpp.obj	5d8a23c818f6f29b
+20	1562	8008986516058303	CMakeFiles/fractal-julia.dir/Debug/main.cpp.obj	641af39659cd2960
+1563	3967	8008986531491644	Debug/fractal-julia.exe	9c8042bcbbea8ea5
+57	238	8008978345955845	CMakeFiles/fractal-julia.dir/Debug/palette.cpp.obj	a8bb8e72a27dc308
+59	801	8008978345975842	CMakeFiles/fractal-julia.dir/Debug/fractal_simd.cpp.obj	5468cc4e981c6ea
+42	214	8008986925635683	CMakeFiles/fractal-julia.dir/Release/palette.cpp.obj	2562b9fe01a32abb
+37	399	8008986925585676	CMakeFiles/fractal-julia.dir/Release/fractal_serial.cpp.obj	30a8e1a922cb3679
+47	899	8009827094232824	CMakeFiles/fractal-julia.dir/Release/fractal_simd.cpp.obj	1579348c6cd764c6
+5	1340	8009008483672980	CMakeFiles/fractal-julia.dir/Release/main.cpp.obj	b3c5c216957fba28
+899	3881	8009827102753719	Release/fractal-julia.exe	87956dea6361ab2e
+23	379	8008979755701545	CMakeFiles/fractal-julia.dir/Debug/fractal_openmp.cpp.obj	1b2e152c00367bb0
+23	851	8009004203951459	CMakeFiles/fractal-julia.dir/Release/fractal_openmp.cpp.obj	d13ea51b9a2e3b64
+48	234	8011655285849544	CMakeFiles/trabajo-clase.dir/Debug/palette.cpp.obj	89246de4c8efdae5
+53	666	8011655285899428	CMakeFiles/producto_escalar.dir/Debug/producto_escalar.cpp.obj	c4a14e5c38b9e0f6
+51	766	8011655285879483	CMakeFiles/trabajo-clase.dir/Debug/fractal_openmp.cpp.obj	2459fdcddf196b36
+667	1209	8011655292033134	Debug/producto_escalar.exe	a34e5cfb8a6b2fe0
+20	1388	8011681366239551	CMakeFiles/trabajo-clase.dir/Debug/main.cpp.obj	3184bd0af6d61219
+4	432	8011660594765742	CMakeFiles/trabajo-clase.dir/Debug/escalar_vectorial.cpp.obj	ec2831af11fc713e
+460	854	8011675552388050	Debug/trabajo-clase.exe	9a26eb644a9f5cfe
+4	395	8011681695849424	CMakeFiles/trabajo-clase.dir/Debug/escalar_openmp.cpp.obj	56c326c55b96d36a
+42	468	8011681938965511	CMakeFiles/trabajo-clase.dir/Debug/escalar_openmp.cpp.obj	56c326c55b96d36a
+39	476	8011681938930477	CMakeFiles/trabajo-clase.dir/Debug/escalar_vectorial.cpp.obj	ec2831af11fc713e
+44	1367	8011681938985625	CMakeFiles/trabajo-clase.dir/Debug/main.cpp.obj	3184bd0af6d61219
+6	416	8011682722601643	CMakeFiles/trabajo-clase.dir/Debug/escalar_openmp.cpp.obj	56c326c55b96d36a
+416	824	8011682726710224	Debug/trabajo-clase.exe	9a26eb644a9f5cfe
