@@ -22,9 +22,6 @@ double y_min = -1.0;
 double y_max = 1.0;
 
 std::complex<double> c(-0.7, 0.27015);
-
-// -- textura
-// entero sin signo de 32bits
 uint32_t *pixel_buffer = nullptr;
 
 enum class runtime_type
@@ -36,10 +33,6 @@ enum class runtime_type
     OPENMP_FOR,
     OPENMP_FOR_SIMD
 };
-
-// #ifdef LINUX
-//  #include <unistd.h>
-// #endif
 
 int main()
 {

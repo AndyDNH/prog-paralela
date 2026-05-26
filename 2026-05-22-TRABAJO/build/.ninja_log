@@ -1,0 +1,7 @@
+# ninja log v7
+52	266	8014709464480137	CMakeFiles/filtro-gris.dir/Debug/grayscale_openmp.cpp.obj	7c89ebbc6fe59d3d
+43	1509	8014709464349734	CMakeFiles/filtro-gris.dir/Debug/grayscale_simd.cpp.obj	3113b8a18dc12782
+58	3895	8014709464539122	CMakeFiles/filtro-gris.dir/Debug/main.cpp.obj	50512cdf0f41e2d6
+3895	9242	8014709502915606	Debug/filtro-gris.exe	d500d5c5ee87f60f
+209	5177	8014713976644549	CMakeFiles/filtro-gris.dir/Debug/main.cpp.obj	50512cdf0f41e2d6
+5179	11482	8014714026333570	Debug/filtro-gris.exe	d500d5c5ee87f60f

@@ -1,0 +1,56 @@
+[
+{
+  "directory": "C:/tools/Proyectos/prog-paralela/2026-05-22-TRABAJO/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Debug\\\" -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include  -mavx2 -fopenmp -g -o CMakeFiles\\filtro-gris.dir\\Debug\\grayscale_simd.cpp.obj -c C:\\tools\\Proyectos\\prog-paralela\\2026-05-22-TRABAJO\\grayscale_simd.cpp",
+  "file": "C:/tools/Proyectos/prog-paralela/2026-05-22-TRABAJO/grayscale_simd.cpp",
+  "output": "C:/tools/Proyectos/prog-paralela/2026-05-22-TRABAJO/build/CMakeFiles/filtro-gris.dir/Debug/grayscale_simd.cpp.obj"
+},
+{
+  "directory": "C:/tools/Proyectos/prog-paralela/2026-05-22-TRABAJO/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Debug\\\" -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include  -mavx2 -fopenmp -g -o CMakeFiles\\filtro-gris.dir\\Debug\\grayscale_openmp.cpp.obj -c C:\\tools\\Proyectos\\prog-paralela\\2026-05-22-TRABAJO\\grayscale_openmp.cpp",
+  "file": "C:/tools/Proyectos/prog-paralela/2026-05-22-TRABAJO/grayscale_openmp.cpp",
+  "output": "C:/tools/Proyectos/prog-paralela/2026-05-22-TRABAJO/build/CMakeFiles/filtro-gris.dir/Debug/grayscale_openmp.cpp.obj"
+},
+{
+  "directory": "C:/tools/Proyectos/prog-paralela/2026-05-22-TRABAJO/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Debug\\\" -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include  -mavx2 -fopenmp -g -o CMakeFiles\\filtro-gris.dir\\Debug\\main.cpp.obj -c C:\\tools\\Proyectos\\prog-paralela\\2026-05-22-TRABAJO\\main.cpp",
+  "file": "C:/tools/Proyectos/prog-paralela/2026-05-22-TRABAJO/main.cpp",
+  "output": "C:/tools/Proyectos/prog-paralela/2026-05-22-TRABAJO/build/CMakeFiles/filtro-gris.dir/Debug/main.cpp.obj"
+},
+{
+  "directory": "C:/tools/Proyectos/prog-paralela/2026-05-22-TRABAJO/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Release\\\" -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include  -mavx2 -fopenmp -O3 -DNDEBUG -o CMakeFiles\\filtro-gris.dir\\Release\\grayscale_simd.cpp.obj -c C:\\tools\\Proyectos\\prog-paralela\\2026-05-22-TRABAJO\\grayscale_simd.cpp",
+  "file": "C:/tools/Proyectos/prog-paralela/2026-05-22-TRABAJO/grayscale_simd.cpp",
+  "output": "C:/tools/Proyectos/prog-paralela/2026-05-22-TRABAJO/build/CMakeFiles/filtro-gris.dir/Release/grayscale_simd.cpp.obj"
+},
+{
+  "directory": "C:/tools/Proyectos/prog-paralela/2026-05-22-TRABAJO/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Release\\\" -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include  -mavx2 -fopenmp -O3 -DNDEBUG -o CMakeFiles\\filtro-gris.dir\\Release\\grayscale_openmp.cpp.obj -c C:\\tools\\Proyectos\\prog-paralela\\2026-05-22-TRABAJO\\grayscale_openmp.cpp",
+  "file": "C:/tools/Proyectos/prog-paralela/2026-05-22-TRABAJO/grayscale_openmp.cpp",
+  "output": "C:/tools/Proyectos/prog-paralela/2026-05-22-TRABAJO/build/CMakeFiles/filtro-gris.dir/Release/grayscale_openmp.cpp.obj"
+},
+{
+  "directory": "C:/tools/Proyectos/prog-paralela/2026-05-22-TRABAJO/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Release\\\" -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include  -mavx2 -fopenmp -O3 -DNDEBUG -o CMakeFiles\\filtro-gris.dir\\Release\\main.cpp.obj -c C:\\tools\\Proyectos\\prog-paralela\\2026-05-22-TRABAJO\\main.cpp",
+  "file": "C:/tools/Proyectos/prog-paralela/2026-05-22-TRABAJO/main.cpp",
+  "output": "C:/tools/Proyectos/prog-paralela/2026-05-22-TRABAJO/build/CMakeFiles/filtro-gris.dir/Release/main.cpp.obj"
+},
+{
+  "directory": "C:/tools/Proyectos/prog-paralela/2026-05-22-TRABAJO/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include  -mavx2 -fopenmp -O2 -g -DNDEBUG -o CMakeFiles\\filtro-gris.dir\\RelWithDebInfo\\grayscale_simd.cpp.obj -c C:\\tools\\Proyectos\\prog-paralela\\2026-05-22-TRABAJO\\grayscale_simd.cpp",
+  "file": "C:/tools/Proyectos/prog-paralela/2026-05-22-TRABAJO/grayscale_simd.cpp",
+  "output": "C:/tools/Proyectos/prog-paralela/2026-05-22-TRABAJO/build/CMakeFiles/filtro-gris.dir/RelWithDebInfo/grayscale_simd.cpp.obj"
+},
+{
+  "directory": "C:/tools/Proyectos/prog-paralela/2026-05-22-TRABAJO/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include  -mavx2 -fopenmp -O2 -g -DNDEBUG -o CMakeFiles\\filtro-gris.dir\\RelWithDebInfo\\grayscale_openmp.cpp.obj -c C:\\tools\\Proyectos\\prog-paralela\\2026-05-22-TRABAJO\\grayscale_openmp.cpp",
+  "file": "C:/tools/Proyectos/prog-paralela/2026-05-22-TRABAJO/grayscale_openmp.cpp",
+  "output": "C:/tools/Proyectos/prog-paralela/2026-05-22-TRABAJO/build/CMakeFiles/filtro-gris.dir/RelWithDebInfo/grayscale_openmp.cpp.obj"
+},
+{
+  "directory": "C:/tools/Proyectos/prog-paralela/2026-05-22-TRABAJO/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -isystem C:/tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include  -mavx2 -fopenmp -O2 -g -DNDEBUG -o CMakeFiles\\filtro-gris.dir\\RelWithDebInfo\\main.cpp.obj -c C:\\tools\\Proyectos\\prog-paralela\\2026-05-22-TRABAJO\\main.cpp",
+  "file": "C:/tools/Proyectos/prog-paralela/2026-05-22-TRABAJO/main.cpp",
+  "output": "C:/tools/Proyectos/prog-paralela/2026-05-22-TRABAJO/build/CMakeFiles/filtro-gris.dir/RelWithDebInfo/main.cpp.obj"
+}
+]
