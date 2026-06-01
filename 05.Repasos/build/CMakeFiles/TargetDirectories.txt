@@ -1,0 +1,3 @@
+C:/tools/Proyectos/prog-paralela/05.Repasos/build/CMakeFiles/fractal-julia.dir
+C:/tools/Proyectos/prog-paralela/05.Repasos/build/CMakeFiles/edit_cache.dir
+C:/tools/Proyectos/prog-paralela/05.Repasos/build/CMakeFiles/rebuild_cache.dir
