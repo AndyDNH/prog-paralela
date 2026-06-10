@@ -21,7 +21,6 @@ double producto_escalar_simd(const std::vector<double> &x, const std::vector<dou
         __m256d py = _mm256_loadu_pd(y.data() + i);
 
         __m256d oper = _mm256_mul_pd(px, py);
-
         acumulado = _mm256_add_pd(acumulado, oper);
     }
 
