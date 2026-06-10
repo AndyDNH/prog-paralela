@@ -1,0 +1,4 @@
+C:/tools/Proyectos/prog-paralela/06.ejemplo_mpi/build/CMakeFiles/ejemplo_mpi.dir
+C:/tools/Proyectos/prog-paralela/06.ejemplo_mpi/build/CMakeFiles/matrices-mult.dir
+C:/tools/Proyectos/prog-paralela/06.ejemplo_mpi/build/CMakeFiles/edit_cache.dir
+C:/tools/Proyectos/prog-paralela/06.ejemplo_mpi/build/CMakeFiles/rebuild_cache.dir

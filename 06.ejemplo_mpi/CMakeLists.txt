@@ -8,7 +8,7 @@ project(ejemploMPI)
 find_package(fmt CONFIG REQUIRED)
 
 # ---config mpi
-set(MPI_ROOT "c:/oneapi/mpi/latest/")
+set(MPI_ROOT "c:/oneapi/mpi/2021.18/")
 set(MPI_INCLUDE "${MPI_ROOT}/include")
 set(MPI_LIB "${MPI_ROOT}/lib")
 
