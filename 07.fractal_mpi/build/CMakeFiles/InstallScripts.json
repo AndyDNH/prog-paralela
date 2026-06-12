@@ -1,0 +1,11 @@
+{
+	"Configs" : 
+	[
+		"Debug"
+	],
+	"InstallScripts" : 
+	[
+		"C:/Tools/prog-paralela/07.fractal_mpi/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
