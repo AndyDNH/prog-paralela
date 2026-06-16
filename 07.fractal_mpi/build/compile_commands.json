@@ -19,6 +19,12 @@
 },
 {
   "directory": "C:/Tools/prog-paralela/07.fractal_mpi/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Debug\\\" -Ic:/oneapi/mpi/latest/include -isystem C:/Tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -g -o CMakeFiles\\fractal_mpi.dir\\Debug\\draw_text.cpp.obj -c C:\\Tools\\prog-paralela\\07.fractal_mpi\\draw_text.cpp",
+  "file": "C:/Tools/prog-paralela/07.fractal_mpi/draw_text.cpp",
+  "output": "C:/Tools/prog-paralela/07.fractal_mpi/build/CMakeFiles/fractal_mpi.dir/Debug/draw_text.cpp.obj"
+},
+{
+  "directory": "C:/Tools/prog-paralela/07.fractal_mpi/build",
   "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Release\\\" -Ic:/oneapi/mpi/latest/include -isystem C:/Tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -DNDEBUG -o CMakeFiles\\fractal_mpi.dir\\Release\\main.cpp.obj -c C:\\Tools\\prog-paralela\\07.fractal_mpi\\main.cpp",
   "file": "C:/Tools/prog-paralela/07.fractal_mpi/main.cpp",
   "output": "C:/Tools/prog-paralela/07.fractal_mpi/build/CMakeFiles/fractal_mpi.dir/Release/main.cpp.obj"
@@ -37,6 +43,12 @@
 },
 {
   "directory": "C:/Tools/prog-paralela/07.fractal_mpi/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Release\\\" -Ic:/oneapi/mpi/latest/include -isystem C:/Tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O3 -DNDEBUG -o CMakeFiles\\fractal_mpi.dir\\Release\\draw_text.cpp.obj -c C:\\Tools\\prog-paralela\\07.fractal_mpi\\draw_text.cpp",
+  "file": "C:/Tools/prog-paralela/07.fractal_mpi/draw_text.cpp",
+  "output": "C:/Tools/prog-paralela/07.fractal_mpi/build/CMakeFiles/fractal_mpi.dir/Release/draw_text.cpp.obj"
+},
+{
+  "directory": "C:/Tools/prog-paralela/07.fractal_mpi/build",
   "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -Ic:/oneapi/mpi/latest/include -isystem C:/Tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -o CMakeFiles\\fractal_mpi.dir\\RelWithDebInfo\\main.cpp.obj -c C:\\Tools\\prog-paralela\\07.fractal_mpi\\main.cpp",
   "file": "C:/Tools/prog-paralela/07.fractal_mpi/main.cpp",
   "output": "C:/Tools/prog-paralela/07.fractal_mpi/build/CMakeFiles/fractal_mpi.dir/RelWithDebInfo/main.cpp.obj"
@@ -52,5 +64,11 @@
   "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -Ic:/oneapi/mpi/latest/include -isystem C:/Tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -o CMakeFiles\\fractal_mpi.dir\\RelWithDebInfo\\palette.cpp.obj -c C:\\Tools\\prog-paralela\\07.fractal_mpi\\palette.cpp",
   "file": "C:/Tools/prog-paralela/07.fractal_mpi/palette.cpp",
   "output": "C:/Tools/prog-paralela/07.fractal_mpi/build/CMakeFiles/fractal_mpi.dir/RelWithDebInfo/palette.cpp.obj"
+},
+{
+  "directory": "C:/Tools/prog-paralela/07.fractal_mpi/build",
+  "command": "c:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -Ic:/oneapi/mpi/latest/include -isystem C:/Tools/vcpkg-2026.03.18/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -o CMakeFiles\\fractal_mpi.dir\\RelWithDebInfo\\draw_text.cpp.obj -c C:\\Tools\\prog-paralela\\07.fractal_mpi\\draw_text.cpp",
+  "file": "C:/Tools/prog-paralela/07.fractal_mpi/draw_text.cpp",
+  "output": "C:/Tools/prog-paralela/07.fractal_mpi/build/CMakeFiles/fractal_mpi.dir/RelWithDebInfo/draw_text.cpp.obj"
 }
 ]

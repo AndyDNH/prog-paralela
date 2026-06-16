@@ -7,6 +7,7 @@ project(fractalMPI)
 
 find_package(fmt CONFIG REQUIRED)
 find_package(SFML COMPONENTS System Graphics Window CONFIG REQUIRED)
+find_package(Freetype REQUIRED)
 
 # ---config mpi
 set(MPI_ROOT "c:/oneapi/mpi/latest/")
@@ -22,6 +23,7 @@ add_executable(fractal_mpi
 main.cpp
 fractal_serial_mpi.cpp
 palette.cpp
+draw_text.cpp
 
 )
 
@@ -30,6 +32,7 @@ fmt::fmt
 SFML::System
 SFML::Graphics
 SFML::Window
+Freetype::Freetype
 ${MPI_LIB}/impi.lib
 
 )

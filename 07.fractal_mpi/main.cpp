@@ -3,6 +3,9 @@
 #include <complex>
 #include <mpi.h>
 #include <SFML/Graphics.hpp>
+// #include "arial.ttf.h"
+
+#include "draw_text.h"
 
 #include "fractal_serial_mpi.h"
 
@@ -13,22 +16,47 @@
 #define WIDTH 1600
 #define HEIGHT 900
 
-// -- parametros
+namespace arial_ttf
+{
+    extern size_t data_len;
+    extern unsigned char data[];
+}
+
+// -- parametros globales y de MPI
 int max_iteraciones = 10;
 
 double x_min = -1.5;
 double x_max = 1.5;
 double y_min = -1.0;
 double y_max = 1.0;
+int frames;
 
 uint32_t *pixel_buffer = nullptr;
 uint32_t *texture_buffer = nullptr;
 int running = 1;
 
+int nprocs, rank;
+int delta;
+int row_start;
+int row_end;
+int padding;
+
+void dibujar_texto(int rank)
+{
+    auto texto = fmt::format("RANK_{}", rank);
+
+    draw_text_to_texture(
+        (unsigned char *)pixel_buffer,
+        WIDTH, delta,
+        texto.c_str(),
+        10, 25, 20);
+}
+
 std::complex<double> c(-0.7, 0.27015);
 
 void setup_ui()
 {
+    // El Rank 0 necesita el buffer completo para la textura
     texture_buffer = new uint32_t[WIDTH * HEIGHT];
     std::memset(texture_buffer, 0, WIDTH * HEIGHT * sizeof(uint32_t));
 
@@ -40,9 +68,23 @@ void setup_ui()
     ShowWindow(hwnh, SW_MAXIMIZE);
 #endif
     sf::Texture texture({WIDTH, HEIGHT});
+    texture.update((const uint8_t *)texture_buffer);
     sf::Sprite sprite(texture);
 
-    int frames = 0;
+    const sf::Font font(arial_ttf::data, arial_ttf::data_len);
+
+    sf::Text text(font, "Fractal", 24);
+    text.setFillColor(sf::Color::White);
+    text.setPosition({10, 10});
+    text.setStyle(sf::Text::Bold);
+
+    std::string options = " UP/DOWN : Change Iterations";
+    sf::Text textOptions(font, options, 14);
+    textOptions.setFillColor(sf::Color::White);
+    textOptions.setStyle(sf::Text::Bold);
+    textOptions.setPosition({10, window.getView().getSize().y - 40});
+
+    frames = 0;
     int fps = 0;
     sf::Clock clock;
 
@@ -71,13 +113,47 @@ void setup_ui()
                     break;
                 }
             }
-
-            std::memset(texture_buffer, 0, WIDTH * HEIGHT * sizeof(uint32_t));
         }
 
         std::vector<int> dummy = {max_iteraciones, running};
         MPI_Bcast(dummy.data(), 2, MPI_INT, 0, MPI_COMM_WORLD);
-        // texture.update((const uint8_t *)pixel_buffer);
+
+        if (running == 0)
+        {
+            break;
+        }
+
+        julia_mpi(x_min, y_min, x_max, y_max, WIDTH, HEIGHT, row_start, row_end, pixel_buffer);
+        std::memcpy(texture_buffer, pixel_buffer, WIDTH * delta * sizeof(uint32_t));
+        dibujar_texto(0);
+
+        for (int i = 1; i < nprocs; i++)
+        {
+            int new_delta = delta;
+            if (i == nprocs - 1)
+            {
+                new_delta = delta - padding;
+            }
+
+            MPI_Status status;
+            MPI_Recv(pixel_buffer,
+                     WIDTH * delta,
+                     MPI_UNSIGNED,
+                     i,
+                     0,
+                     MPI_COMM_WORLD,
+                     &status);
+
+            // if (i < nprocs - 1)
+            {
+                std::memcpy(
+                    texture_buffer + (i * delta * WIDTH),
+                    pixel_buffer,
+                    WIDTH * new_delta * sizeof(uint32_t));
+            }
+        }
+
+        texture.update((const uint8_t *)texture_buffer);
         frames++;
 
         if (clock.getElapsedTime().asSeconds() >= 1.0f)
@@ -86,45 +162,42 @@ void setup_ui()
             frames = 0;
             clock.restart();
         }
-        // acttualziar el titulo
-        // auto msg = fmt::format("Julia Set: Iteraciones:{} , FPS:{} , Mode:{}", max_iteraciones, fps, mode);
-        // text.setString(msg);
+
+        auto msg = fmt::format("Julia Set: Iteraciones:{} , FPS:{} , Mode:MPI", max_iteraciones, fps);
+        text.setString(msg);
 
         // dibujar
-
         window.clear();
         {
-            // window.draw(sprite);
-            // window.draw(text);
-            // window.draw(textOptions);
+            window.draw(sprite);
+            window.draw(text);
+            window.draw(textOptions);
         }
         window.display();
     }
+
+    delete[] texture_buffer;
 }
 
 int main(int argc, char **argv)
 {
     MPI_Init(&argc, &argv);
 
-    int nprocs, rank;
     MPI_Comm_size(MPI_COMM_WORLD, &nprocs);
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+    init_freetype();
 
-    int delta = std::ceil(HEIGHT * 1.0 / nprocs); // 1600/4 = 400
-    int row_start = rank * delta;
-    int row_end = row_start + delta;
-
-    // ro: start= 0 *400, end = 0+400 = 400
-    // ro: start= 1 *400, end = 400+400 = 800
-    // ro: start= 2 *400, end = 800+400 = 1200
-    // ro: start= 3 *400, end = 1200+400 = 1600
-    int padding = delta * nprocs - HEIGHT; // 400 * 4 - 1600 = 0
+    delta = std::ceil(HEIGHT * 1.0 / nprocs);
+    padding = (delta * nprocs) - HEIGHT;
+    row_start = rank * delta;
+    row_end = row_start + delta;
 
     if (row_end > HEIGHT)
     {
         row_end = HEIGHT;
     }
 
+    // Cada proceso (Master y Esclavos) reserva su buffer local de procesamiento
     pixel_buffer = new uint32_t[WIDTH * delta];
     std::memset(pixel_buffer, 0, WIDTH * delta * sizeof(uint32_t));
 
@@ -136,35 +209,37 @@ int main(int argc, char **argv)
     }
     else
     {
-        // dibujar
+        // Lógica de procesamiento de los procesos n>0
         while (true)
         {
             std::vector<int> dummy = {max_iteraciones, 0};
+            // Recibir órdenes del Rank 0
             MPI_Bcast(dummy.data(), 2, MPI_INT, 0, MPI_COMM_WORLD);
-            
+
             max_iteraciones = dummy[0];
             running = dummy[1];
+
             if (running == 0)
             {
-                fmt::println("rank: {} exiting...", rank);
                 break;
             }
+
+            // Calcular la porción correspondiente del fractal
             julia_mpi(x_min, y_min, x_max, y_max, WIDTH, HEIGHT, row_start, row_end, pixel_buffer);
-            // comprobacion del rango
-            if(rank == 1){
-                fmt::println("rank: {} : max_iteraciones = {}", rank, max_iteraciones);
-                std::cout.flush();
-            }
 
+            // Dibujar el texto con el número de rank
+            dibujar_texto(rank);
 
-
-
+            MPI_Send(pixel_buffer,
+                     WIDTH * delta,
+                     MPI_UNSIGNED,
+                     0,
+                     0,
+                     MPI_COMM_WORLD);
         }
-
-        // {
-        //
-        // }
     }
+
+    delete[] pixel_buffer;
 
     MPI_Finalize();
     return 0;
