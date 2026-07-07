@@ -1,0 +1,1 @@
+-D__CUDA_ARCH_LIST__=750 -nologo "C:\Tools\prog-paralela\08.fractal_cuda\build\CMakeFiles\3.31.6-msvc6\CompilerIdCUDA\tmp\a_dlink.obj" "C:\Tools\prog-paralela\08.fractal_cuda\build\CMakeFiles\3.31.6-msvc6\CompilerIdCUDA\tmp\CMakeCUDACompilerId.obj" -link -INCREMENTAL:NO   "/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/../lib/x64"  cudadevrt.lib  cudart.lib

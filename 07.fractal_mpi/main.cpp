@@ -43,13 +43,18 @@ int padding;
 
 void dibujar_texto(int rank)
 {
-    auto texto = fmt::format("RANK_{}", rank);
+    char host_name[MPI_MAX_PROCESSOR_NAME];
+    int name_len;
+    
+    MPI_Get_processor_name(host_name, &name_len);
+
+    auto texto = fmt::format("RANK_{} ({})", rank, host_name);
 
     draw_text_to_texture(
         (unsigned char *)pixel_buffer,
         WIDTH, delta,
         texto.c_str(),
-        10, 25, 20);
+        10, 25, 20); 
 }
 
 std::complex<double> c(-0.7, 0.27015);

@@ -1,0 +1,3 @@
+C:/Tools/prog-paralela/08.fractal_cuda/build/CMakeFiles/cuda01.dir
+C:/Tools/prog-paralela/08.fractal_cuda/build/CMakeFiles/edit_cache.dir
+C:/Tools/prog-paralela/08.fractal_cuda/build/CMakeFiles/rebuild_cache.dir

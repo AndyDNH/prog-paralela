@@ -66,9 +66,9 @@ void draw_text_to_texture(unsigned char* texture, int tex_width, int tex_height,
 
                 if (tx < 0 || tx >= tex_width || ty < 0 || ty >= tex_height) continue;
 
-                unsigned char r_fg = 0;
+                unsigned char r_fg = 255;
                 unsigned char g_fg = 0;
-                unsigned char b_fg = 255;
+                unsigned char b_fg = 0;
 
                 unsigned char alpha = bmp.buffer[j * bmp.pitch + i];
                 
