@@ -1,0 +1,56 @@
+[
+{
+  "directory": "C:/Tools/prog-paralela/09.fractal-q/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_SHARED -DCMAKE_INTDIR=\\\"Debug\\\" -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\" -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\\cccl\" -external:IC:\\Tools\\vcpkg-2026.03.18\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /FoCMakeFiles\\fractal-cuda.dir\\Debug\\main.cpp.obj /FdCMakeFiles\\fractal-cuda.dir\\Debug\\ /FS -c C:\\Tools\\prog-paralela\\09.fractal-q\\main.cpp",
+  "file": "C:\\Tools\\prog-paralela\\09.fractal-q\\main.cpp",
+  "output": "CMakeFiles\\fractal-cuda.dir\\Debug\\main.cpp.obj"
+},
+{
+  "directory": "C:/Tools/prog-paralela/09.fractal-q/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_SHARED -DCMAKE_INTDIR=\\\"Debug\\\" -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\" -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\\cccl\" -external:IC:\\Tools\\vcpkg-2026.03.18\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /FoCMakeFiles\\fractal-cuda.dir\\Debug\\palette.cpp.obj /FdCMakeFiles\\fractal-cuda.dir\\Debug\\ /FS -c C:\\Tools\\prog-paralela\\09.fractal-q\\palette.cpp",
+  "file": "C:\\Tools\\prog-paralela\\09.fractal-q\\palette.cpp",
+  "output": "CMakeFiles\\fractal-cuda.dir\\Debug\\palette.cpp.obj"
+},
+{
+  "directory": "C:/Tools/prog-paralela/09.fractal-q/build",
+  "command": "C:\\PROGRA~1\\NVIDIA~2\\CUDA\\v13.3\\bin\\nvcc.exe -forward-unknown-to-host-compiler -DFMT_SHARED -DCMAKE_INTDIR=\\\"Debug\\\" -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\" -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\\cccl\" -isystem C:\\Tools\\vcpkg-2026.03.18\\installed\\x64-windows\\include -D_WINDOWS -Xcompiler=\" /GR /EHsc\" -Xcompiler=\" -Zi -Ob0 -Od /RTC1\" -std=c++17 -Xcompiler=-MDd -x cu -c C:\\Tools\\prog-paralela\\09.fractal-q\\kernel.cu -o CMakeFiles\\fractal-cuda.dir\\Debug\\kernel.cu.obj -Xcompiler=-FdCMakeFiles\\fractal-cuda.dir\\Debug\\,-FS",
+  "file": "C:\\Tools\\prog-paralela\\09.fractal-q\\kernel.cu",
+  "output": "CMakeFiles\\fractal-cuda.dir\\Debug\\kernel.cu.obj"
+},
+{
+  "directory": "C:/Tools/prog-paralela/09.fractal-q/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_SHARED -DCMAKE_INTDIR=\\\"Release\\\" -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\" -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\\cccl\" -external:IC:\\Tools\\vcpkg-2026.03.18\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++17 -MD /utf-8 /FoCMakeFiles\\fractal-cuda.dir\\Release\\main.cpp.obj /FdCMakeFiles\\fractal-cuda.dir\\Release\\ /FS -c C:\\Tools\\prog-paralela\\09.fractal-q\\main.cpp",
+  "file": "C:\\Tools\\prog-paralela\\09.fractal-q\\main.cpp",
+  "output": "CMakeFiles\\fractal-cuda.dir\\Release\\main.cpp.obj"
+},
+{
+  "directory": "C:/Tools/prog-paralela/09.fractal-q/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_SHARED -DCMAKE_INTDIR=\\\"Release\\\" -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\" -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\\cccl\" -external:IC:\\Tools\\vcpkg-2026.03.18\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++17 -MD /utf-8 /FoCMakeFiles\\fractal-cuda.dir\\Release\\palette.cpp.obj /FdCMakeFiles\\fractal-cuda.dir\\Release\\ /FS -c C:\\Tools\\prog-paralela\\09.fractal-q\\palette.cpp",
+  "file": "C:\\Tools\\prog-paralela\\09.fractal-q\\palette.cpp",
+  "output": "CMakeFiles\\fractal-cuda.dir\\Release\\palette.cpp.obj"
+},
+{
+  "directory": "C:/Tools/prog-paralela/09.fractal-q/build",
+  "command": "C:\\PROGRA~1\\NVIDIA~2\\CUDA\\v13.3\\bin\\nvcc.exe -forward-unknown-to-host-compiler -DFMT_SHARED -DCMAKE_INTDIR=\\\"Release\\\" -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\" -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\\cccl\" -isystem C:\\Tools\\vcpkg-2026.03.18\\installed\\x64-windows\\include -D_WINDOWS -Xcompiler=\" /GR /EHsc\" -Xcompiler=\"-O2 -Ob2\" -DNDEBUG -std=c++17 -Xcompiler=-MD -x cu -c C:\\Tools\\prog-paralela\\09.fractal-q\\kernel.cu -o CMakeFiles\\fractal-cuda.dir\\Release\\kernel.cu.obj -Xcompiler=-FdCMakeFiles\\fractal-cuda.dir\\Release\\,-FS",
+  "file": "C:\\Tools\\prog-paralela\\09.fractal-q\\kernel.cu",
+  "output": "CMakeFiles\\fractal-cuda.dir\\Release\\kernel.cu.obj"
+},
+{
+  "directory": "C:/Tools/prog-paralela/09.fractal-q/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_SHARED -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\" -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\\cccl\" -external:IC:\\Tools\\vcpkg-2026.03.18\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /O2 /Ob1 /DNDEBUG -std:c++17 -MD /utf-8 /FoCMakeFiles\\fractal-cuda.dir\\RelWithDebInfo\\main.cpp.obj /FdCMakeFiles\\fractal-cuda.dir\\RelWithDebInfo\\ /FS -c C:\\Tools\\prog-paralela\\09.fractal-q\\main.cpp",
+  "file": "C:\\Tools\\prog-paralela\\09.fractal-q\\main.cpp",
+  "output": "CMakeFiles\\fractal-cuda.dir\\RelWithDebInfo\\main.cpp.obj"
+},
+{
+  "directory": "C:/Tools/prog-paralela/09.fractal-q/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_SHARED -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\" -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\\cccl\" -external:IC:\\Tools\\vcpkg-2026.03.18\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /O2 /Ob1 /DNDEBUG -std:c++17 -MD /utf-8 /FoCMakeFiles\\fractal-cuda.dir\\RelWithDebInfo\\palette.cpp.obj /FdCMakeFiles\\fractal-cuda.dir\\RelWithDebInfo\\ /FS -c C:\\Tools\\prog-paralela\\09.fractal-q\\palette.cpp",
+  "file": "C:\\Tools\\prog-paralela\\09.fractal-q\\palette.cpp",
+  "output": "CMakeFiles\\fractal-cuda.dir\\RelWithDebInfo\\palette.cpp.obj"
+},
+{
+  "directory": "C:/Tools/prog-paralela/09.fractal-q/build",
+  "command": "C:\\PROGRA~1\\NVIDIA~2\\CUDA\\v13.3\\bin\\nvcc.exe -forward-unknown-to-host-compiler -DFMT_SHARED -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\" -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\\cccl\" -isystem C:\\Tools\\vcpkg-2026.03.18\\installed\\x64-windows\\include -D_WINDOWS -Xcompiler=\" /GR /EHsc\" -Xcompiler=\" -Zi -O2 -Ob1\" -DNDEBUG -std=c++17 -Xcompiler=-MD -x cu -c C:\\Tools\\prog-paralela\\09.fractal-q\\kernel.cu -o CMakeFiles\\fractal-cuda.dir\\RelWithDebInfo\\kernel.cu.obj -Xcompiler=-FdCMakeFiles\\fractal-cuda.dir\\RelWithDebInfo\\,-FS",
+  "file": "C:\\Tools\\prog-paralela\\09.fractal-q\\kernel.cu",
+  "output": "CMakeFiles\\fractal-cuda.dir\\RelWithDebInfo\\kernel.cu.obj"
+}
+]

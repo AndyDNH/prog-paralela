@@ -1,0 +1,8 @@
+================================================================================
+Linker Errors
+Generated: 2026-07-08T12:57:29.121Z
+Total Errors: 1
+================================================================================
+
+[LNK2019] (MSVC)
+símbolo externo "void __cdecl julia_gpu(double,double,double,double,unsigned int,unsigned int,unsigned int *)" (?julia_gpu@@YAXNNNNIIPEAI@Z) sin resolver al que se hace referencia en la función main
